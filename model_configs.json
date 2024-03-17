@@ -1,0 +1,11 @@
+[
+    {
+      "model_type": "tongyi_chat",
+      "config_name": "qwen",
+      "model_name": "qwen1.5-72b-chat",
+      "api_key": "sk-8ab06c37faff4235a7340879b8103b88",
+      "generate_args": {
+        "temperature": 0.5
+      }
+    }
+]

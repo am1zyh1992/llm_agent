@@ -1,0 +1,29 @@
+[
+    {
+        "class": "DictDialogAgent",
+        "args": {
+            "name": "Consulter1",
+            "sys_prompt": "Act as a role of a personal fashion stylist.\n You will provide advice to people based on factors such as weather, body weight, gender.\n",
+            "model_config_name": "qwen",
+            "use_memory": true
+        }
+    },
+    {
+        "class": "DictDialogAgent",
+        "args": {
+            "name": "Consulter2",
+            "sys_prompt": "Assuming you are a fashion stylist, you are here to give advice on clothing pairing to the person you are conversing with.",
+            "model_config_name": "qwen",
+            "use_memory": true
+        }
+    },
+    {
+        "class": "DictDialogAgent",
+        "args": {
+            "name": "Manager",
+            "sys_prompt": "Act as a Manager in the conversation.Judge the responses of each character and determine if what they say is correct.",
+            "model_config_name": "qwen",
+            "use_memory": true
+        }
+    }
+]
